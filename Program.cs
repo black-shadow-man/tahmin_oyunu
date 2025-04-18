@@ -17,7 +17,7 @@ namespace Tahmin_oyunu
         public static void tahmin_oyunu()
         {
             Random random = new Random();
-            int tutulan_sayi = random.Next(1, 10);
+            int tutulan_sayi = random.Next(1, 100);
             int tahmin_hakki = 5;
 
             while (true)
